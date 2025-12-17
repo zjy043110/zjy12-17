@@ -10,7 +10,7 @@ def get_dataframe_from_excel() -> pd.DataFrame:
         pd.DataFrame: 包含小时数字段的销售数据框
     """
     # 替换为你的Excel文件实际绝对路径
-    excel_path = r"D:\streamlit_env\supermarket_sales.xlsx"
+    excel_path = r"supermarket_sales.xlsx"
     # 读取Excel文件数据
     df = pd.read_excel(
         excel_path,
